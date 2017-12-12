@@ -25,3 +25,13 @@ public class Staff {
      else
          return -1;
 }
+
+ public int calculatePay(int bonus, int allowance)
+{
+    printMessage();
+    if (hoursWorked>0)
+         return hoursWorked * hourlyRate + bonus + allowance;
+    else
+         return 0;
+}
+}
