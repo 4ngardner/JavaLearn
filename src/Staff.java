@@ -1,8 +1,5 @@
 
-/**
- *
- * @author ngardner3
- */
+
 public class Staff {
  private String nameOfStaff;
  private final int hourlyRate = 30;
@@ -57,7 +54,7 @@ public class Staff {
   public Staff(String firstName, String lastName)
   {
       nameOfStaff = firstName + " " + lastName;
-      System.out.println("\n + nameoOfStaff");
+      System.out.println("\n + nameOfStaff");
       System.out.println("----------------------");
   }
 }

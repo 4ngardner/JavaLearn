@@ -1,5 +1,5 @@
 
-package objectorienteddemo;
+
 
 /**
  *
@@ -12,7 +12,7 @@ public class ObjectOrientedDemo {
      */
     public static void main(String[] args) {
         Staff staff1 = new Staff ("Nicole");
-        staff1.setHourWorked(160);
+        staff1.setHoursWorked(160);
         int pay = staff1.calculatePay(1000, 400);
         System.out.println("Pay = " + pay);
     }
