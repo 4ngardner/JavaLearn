@@ -34,4 +34,31 @@ public class Staff {
     else
          return 0;
 }
+  public void setHoursWorked(int hours)
+ {
+     if (hours>0)
+         hoursWorked = hours;
+     else
+     {
+         System.out.println("Error: hoursWorked Cannot be Smaller than Zero");
+         System.out.println("Error: HoursWorked is not updated");
+     }
+ }
+  public int getHourssWorked()
+  {
+      return hoursWorked;
+  }
+  public Staff(String name)
+  {
+      nameOfStaff = name;
+      System.out.println("\n" + nameOfStaff);
+      System.out.println("-----------------");
+  }
+  public Staff(String firsName, String lastName)
+  {
+      nameOfStaff = firstName + " " + lastName;
+      System.out.println("\n + nameoOfStaff")
+      System.out.println("----------------------");
+  }
 }
+
