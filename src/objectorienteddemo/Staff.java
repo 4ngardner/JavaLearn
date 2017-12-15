@@ -54,10 +54,10 @@ public class Staff {
       System.out.println("\n" + nameOfStaff);
       System.out.println("-----------------");
   }
-  public Staff(String firsName, String lastName)
+  public Staff(String firstName, String lastName)
   {
       nameOfStaff = firstName + " " + lastName;
-      System.out.println("\n + nameoOfStaff")
+      System.out.println("\n + nameoOfStaff");
       System.out.println("----------------------");
   }
 }
