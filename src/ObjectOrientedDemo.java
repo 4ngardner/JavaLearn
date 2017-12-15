@@ -1,5 +1,5 @@
 
-package objectorienteddemo;
+
 
 /**
  *
@@ -11,7 +11,10 @@ public class ObjectOrientedDemo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Staff staff1 = new Staff ("Nicole");
+        staff1.setHoursWorked(160);
+        int pay = staff1.calculatePay(1000, 400);
+        System.out.println("Pay = " + pay);
     }
     
 }
